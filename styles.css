@@ -1,2 +1,16 @@
+.holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 0; /* No padding, so edges are touched */
+}
 
-/* Your CSS Code here. */
+.item {
+  flex: 0 0 auto; /* Do not grow or shrink */
+  margin-bottom: 10px; /* Optional spacing between rows */
+  width: 100px; /* You can change this to suit your layout */
+  background-color: lightblue;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
